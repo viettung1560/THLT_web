@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration form</title>        
+        <script src="validateinput.js"></script>
+    </head>
+    <body>
+        <form onsubmit="return validateForm();">
+            <table>
+                <thead>
+                    <th colspan="2">Registration Form</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" name="username" id="username" placeholder="Input your username"></td>
+                    </tr>
+                    <tr>
+                        <td>E-mail</td>
+                        <td><input type="text" name="email" id="email" placeholder="Input your email"></td>
+                    </tr>
+                    <tr>
+                        <td>Telephone</td>
+                        <td><input type="text" name="telephone" id="telephone" placeholder="Input your telephone"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Submit"></td>
+                        <td><input type="reset" value="Reset"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

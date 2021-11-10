@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="process_data.php" method="post">
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Class: </td>
+                    <td><input type="text" name="class"></td>
+                </tr>
+                <tr>
+                    <td>School: </td>
+                    <td><input type="text" name="school"></td>
+                </tr>
+                <tr>
+                    <td>E-mail: </td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Website: </td>
+                    <td><input type="text" name="website"></td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="male">Male
+                        <input type="radio" name="gender" value="other">Other
+                    </td>
+                </tr>                
+                <tr><td>Hobby:</td></tr>
+                <tr>
+                    <td>1. </td>
+                    <td><input type="text" name="hobby1"></td>
+                </tr>
+                <tr>
+                    <td>2. </td>
+                    <td><input type="text" name="hobby2"></td>
+                </tr>
+                <tr>
+                    <td>3. </td>
+                    <td><input type="text" name="hobby3"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="Submit"></td>
+                    <td><input type="reset" name="reset" value="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

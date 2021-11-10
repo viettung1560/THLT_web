@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colors</title>
+        <script type="text/javascript">
+            function onMouseOver(color) {
+                document.getElementById("para").style.color = color
+            }
+            function onMouseOut() {
+                document.getElementById("para").style.color = "black"
+            }
+        </script>
+    </head>    
+    <body>
+        <a href="" style="color: red" onmouseover="onMouseOver('red')" onmouseout="onMouseOut()">
+            Red
+        </a>
+        <a href="" style="color: blue" onmouseover="onMouseOver('blue')" onmouseout="onMouseOut()">
+            Blue
+        </a>
+        <a href="" style="color: green" onmouseover="onMouseOver('green')" onmouseout="onMouseOut()">
+            Green
+        </a><br>
+        <div id = "para">
+            <h1>Random paragragh</h1>
+            <p style="font-size: 20px">
+                Spending time at national parks can be an exciting 
+                adventure, but this wasn't the type of excitement 
+                she was hoping to experience. As she contemplated 
+                the situation she found herself in, she knew she'd 
+                gotten herself in a little more than she bargained 
+                for. It wasn't often that she found herself in a 
+                tree staring down at a pack of wolves that were 
+                looking to make her their next meal.
+            </p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Box Model</title>
+        <style type="text/css">
+            body {
+                margin: 0px;
+                padding: 0px;
+                font-size: 20;
+            }
+            #header {
+                background: red;
+                color: white;
+            }
+            #main {
+                width: 100%;
+            }
+            #main-content {
+                width: 75%;
+                float: left;
+                height: 700px;
+            }
+            #sidebar {
+                background: yellow;
+                width: 25%;
+                float: right;
+                height: 700px;
+            }
+            #footer {
+                background: blue;
+                color: white;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">Header content</div>
+        <div id="main">
+            <div id="main-content">
+                <h1>Main content</h1>
+                <p>Main contentMain contentMain contentMain contentMain content</p>
+            </div>        
+            <div id="sidebar">Sidebar content<br>
+                Sidebar contentSidebar contentSidebar contentSidebar contentSidebar contentSidebar content</div>
+            </div>
+        <div id="footer">Footer content</div>
+    </body>
+</html>
